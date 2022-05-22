@@ -1,0 +1,3 @@
+※ 1.
+에러 발생 문구 : Caused by: org.gradle.api.GradleException: The current Gradle version 5.4.1 is not compatible with the Kotlin Gradle plugin. Please use Gradle 6.1.1 or newer, or the previous version of the Kotlin plugin.
+해결 방법 : gradle-wrapper.properties 문서의 distributionUrl 버전 수정 

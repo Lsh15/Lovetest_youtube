@@ -1,3 +1,10 @@
 ※ 1.
 에러 발생 문구 : Caused by: org.gradle.api.GradleException: The current Gradle version 5.4.1 is not compatible with the Kotlin Gradle plugin. Please use Gradle 6.1.1 or newer, or the previous version of the Kotlin plugin.
 해결 방법 : gradle-wrapper.properties 문서의 distributionUrl 버전 수정 
+※ 2.
+에러 발생 문구 : java.lang.NoSuchMethodError: No static method metafactory
+해결 방법 : file -> Project Structure -> source compatibility 와 target compatibility를 java 1.8 로 변경
+※ 3.
+에러 발생 문구 : java.lang.AssertionError: annotationType(): unrecognized Attribute name MODULE
+해결 방법 : Settings > Build, Execution, Deployment > Build Tools > Gradle > Gradle JDK를 11 로 변경
+

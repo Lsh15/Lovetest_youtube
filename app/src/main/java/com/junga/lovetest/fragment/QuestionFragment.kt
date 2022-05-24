@@ -37,7 +37,7 @@ class QuestionFragment : Fragment(), View.OnClickListener {
     override fun onClick(p: View?) {
 
         when(p?.id){
-            R.id.btn_back -> {
+            R.id.btn_next -> {
                 navController.navigate(R.id.action_questionFragment_to_selectionFragment)
             }
         }

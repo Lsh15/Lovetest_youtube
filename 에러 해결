@@ -8,5 +8,5 @@
 에러 발생 문구 : java.lang.AssertionError: annotationType(): unrecognized Attribute name MODULE
 해결 방법 : Settings > Build, Execution, Deployment > Build Tools > Gradle > Gradle JDK를 11 로 변경
 ※ 4.
-에러 발생 문구 :AAPT: error: resource android:attr/lStar not found.
-해결 방법 :
+에러 발생 문구 : AAPT error: resource android:attr/lStar not found.
+해결 방법 : app/build.gradle의  androidx.core:core-ktx:+ 버전 변경, compileSdkVersion 버전 31로 변경
